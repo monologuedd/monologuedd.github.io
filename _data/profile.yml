@@ -1,51 +1,39 @@
-primary_name: "Elon Musk"
-secondary_name: ""
-navbar_name: "Elon Musk"
+primary_name: "王凤超"
+secondary_name: "Wang Fengchao"
+navbar_name: "王凤超"
 
 positions:
-- name: Technology Entrepreneur
-- name: Engineer
-- name: Founder & CEO of SpaceX
-- name: CEO of Tesla, Inc.
+- name: Java / AI Agent Full-Stack Engineer
+- name: Spring AI & Enterprise AI Applications
 
 
-# Public contact e-mail (fictional address used for demonstration purposes)
-email: "elon@spacex.com"
+email: "wfc09062022@163.com"
+phone: "15738857147"
 # cv_link: link-to-your-cv-file
-# No public Google Scholar profile exists, so the gscholar field is intentionally omitted.
-github: tesla  # Points to Tesla's open-source repositories
-twitter: elonmusk  # Publicly known account on X (formerly Twitter), without the '@' symbol
+# github: your-github-id
 # linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+# blog: your-blog-url
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Technology entrepreneur and engineer, founder and chief executive officer of SpaceX,
-    and chief executive officer of Tesla, Inc. The professional work concentrates on the
-    engineering and development of complex technological systems.
+    王凤超是一名具备 5 年开发经验的全栈工程师，专注于 Java 后端开发、企业级 AI Agent 与 RAG 应用架构。
+    熟悉 Spring Boot、Spring AI 及微服务技术体系，具备从系统架构设计、智能体开发到前端实现与部署运维的端到端交付能力。
   </p>
   <p>
-    Principal areas of interest include space systems engineering, sustainable energy
-    systems, artificial intelligence and robotics, and large-scale technological
-    innovation.
+    拥有企业级 CRM、供应链金融及智能客服系统的研发实践经验，擅长分布式事务、高并发优化、多模型集成与 MCP 服务开发。
   </p>
 
-portrait_url: /assets/images/photos/portrait.png
+portrait_url: /assets/images/photos/portrait.jpg
 # portrait_caption: >-
 #   Photo caption (optional, comment it out to disable).
 
 education:
-- name: Queen's University
-  logo: /assets/images/badges/Queen_University.jpg
-  position: >- 
-    Physics and Economics <br/>
-    (not completed)
-  date: 1989 - 1992
-- name: University of Pennsylvania
-  logo: /assets/images/badges/University_of_Pennsylvania.jpg
-  position: B.S. in Physics, B.A. in Economics
-  date: 1992 - 1995
+- name: 郑州科技学院 (Zhengzhou University of Science and Technology)
+  position: >-
+    本科（Bachelor's Degree） <br/>
+    计算机科学与技术 (Computer Science and Technology)
+  date: 2018 - 2022
 
 # experience:
 # - name: Company or Institution Name
@@ -53,10 +41,50 @@ education:
 #   position: Position Title
 #   date: Sep. 20XX - present
 
-awards:
-- name: Time Person of the Year
-  date: 2021
-- name: Fellow of the Royal Society (FRS)
-  date: 2018
-- name: Listed in Forbes Billionaires
-  date: 2012 - present
+skills:
+- category: Programming Languages
+  items:
+  - name: Java
+    description: 熟悉并发编程、JVM 原理、网络通信、数据结构、设计模式及面向对象编程。
+  - name: Python
+    description: 掌握面向对象编程、装饰器、生成器；具备数据清洗、自动化脚本、接口测试及报表生成经验。
+  - name: SQL
+    description: 熟悉 MySQL、PostgreSQL，具备 SQL 调优、索引优化及分库分表实践经验。
+  - name: TypeScript / JavaScript
+    description: 具备 Vue 3 前端应用开发经验。
+- category: Frameworks & Tools
+  items:
+  - name: Backend
+    description: Spring, Spring Boot, Spring AI, Spring Cloud Alibaba, MyBatis, MyBatis-Plus, Django, Flask
+  - name: AI & LLM
+    description: AI Agent, RAG, MCP, ReAct, Tool Calling, ChatMemory, Advisor, PGvector, Ollama, OpenAI-compatible APIs
+  - name: Frontend
+    description: Vue 3, TypeScript, Element Plus, Pinia, Tailwind CSS, Vite
+  - name: Databases
+    description: MySQL, PostgreSQL, Redis, MongoDB, Elasticsearch
+  - name: Message Queues
+    description: RocketMQ
+  - name: Distributed Systems
+    description: Nacos, Seata, Sentinel, Redisson, Sharding-JDBC
+  - name: Workflow & Authentication
+    description: Flowable, Sa-Token, Spring Security, OAuth 2.0
+  - name: Deployment & DevOps
+    description: Docker, Nginx, Linux, MinIO
+  - name: Asynchronous Communication
+    description: SSE, WebSocket, CompletableFuture
+  - name: Development Tools
+    description: Git, Maven, IntelliJ IDEA, Claude Code, OpenClaw
+- category: Other Skills
+  items:
+  - name: System Architecture
+    description: 微服务架构设计、企业级系统开发与交付。
+  - name: AI Application Engineering
+    description: 企业级智能体开发、多模型集成、RAG 知识库构建、MCP 服务开发。
+  - name: Performance Optimization
+    description: SQL 调优、多级缓存、并发优化、JVM 问题排查。
+  - name: Distributed Transaction Management
+    description: Seata AT、本地消息表、分布式锁与幂等控制。
+  - name: Automation & Data Processing
+    description: Python 数据处理、数据迁移、自动化运维及报表生成。
+  - name: Full-Stack Delivery
+    description: 需求分析、技术选型、前后端开发、部署运维及线上问题排查。
