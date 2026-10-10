@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "https://mirrors.tuna.tsinghua.edu.cn/rubygems/"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -28,6 +28,14 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 # Version updated to 0.2: https://github.com/luost26/academic-homepage/issues/23
 gem "wdm", "~> 0.2" if Gem.win_platform?
+
+# base64 was removed from the Ruby standard library since 3.4.0,
+# but safe_yaml (dependency of Jekyll 3.x) still requires it.
+gem "base64"
+# bigdecimal is required by liquid; csv/ostruct by Jekyll 3.x on Ruby >= 3.4.
+gem "bigdecimal"
+gem "csv"
+gem "ostruct"
 
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
